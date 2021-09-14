@@ -1,0 +1,14 @@
+server.port: 8700
+
+server.servlet.context-path: /userInfo-service
+server.error.include-message: always
+
+users.registered.url: https://5c3ce12c29429300143fe570.mockapi.io/api/registeredusers
+users.unregistered.url: https://5c3ce12c29429300143fe570.mockapi.io/api/unregisteredusers
+project.membership.url: https://5c3ce12c29429300143fe570.mockapi.io/api/projectmemberships
+
+request.timeout: 5000
+
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL
